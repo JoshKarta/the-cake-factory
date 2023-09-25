@@ -61,7 +61,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
         ?>
     </header>
 
-    <main id="main" class="flex-grow-1" role="main">
+    <main id="main" class="flex-grow-1 bg-light-subtle" role="main">
         <?php if (!empty($this->params['breadcrumbs'])) : ?>
             <?= Breadcrumbs::widget(['links' => $this->params['breadcrumbs']]) ?>
         <?php endif ?>
