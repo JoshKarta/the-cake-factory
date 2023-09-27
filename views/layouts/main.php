@@ -46,7 +46,7 @@ $this->registerJsFile('@web/js/main.js', ['position' => \yii\web\View::POS_END])
                 ['label' => 'Home', 'url' => ['/site/index']],
                 ['label' => 'About', 'url' => ['/site/about']],
                 ['label' => 'Cakes', 'url' => ['/cakes/index']],
-                ['label' => 'Contact', 'url' => ['/site/contact']],
+                ['label' => 'Order', 'url' => ['/orders/create']],
                 Yii::$app->user->isGuest
                     ? ['label' => 'Login', 'url' => ['/site/login']]
                     : '<li class="nav-item">'
